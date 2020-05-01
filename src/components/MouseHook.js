@@ -13,9 +13,13 @@ function MouseHook(props) {
 	useEffect(() => {
 		console.log('useFffect called')
     window.addEventListener('mousemove', logMousePosition)
+    return ()=>{                                              //It Simply Unmount your component
+     console.log('component did unmount ')
+     window.removeEventListener('mousemove', logMousePosition)
+    }
 
     
-	}, [])
+	}, [])                    //Second Empty Argument shows how we make equal componentdidmount equal to useEffect eg Run or Render  Only Once 
 	return (
 		<div>
 			Hooks - X - {x} Y - {y}

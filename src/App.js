@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import MouseHook from './components/MouseHook';
+import MouseContainer from './components/MouseContainer';
+
 
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <MouseHook></MouseHook> 
+        <MouseContainer></MouseContainer>
                </div>
     );
 
