@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
+import UseEffectHook from './components/UseEffectHook';
 
-import Hookusestatearr from './components/Hookusestatearr'
 class App extends Component {
 
   
@@ -8,11 +8,8 @@ class App extends Component {
 
     return (
       <div className="App">
-{/*        
-         <ClassCounter></ClassCounter>
-         <HookCounter/>
-         <HooksPrevState></HooksPrevState> */}
-         <Hookusestatearr />
+
+        <UseEffectHook /> 
                </div>
     );
 
