@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import MouseContainer from './components/MouseContainer';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <MouseContainer></MouseContainer>
+        <IntervalHookCounter></IntervalHookCounter>
                </div>
     );
 
