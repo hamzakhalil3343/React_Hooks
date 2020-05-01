@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import UseEffectHook from './components/UseEffectHook';
+import MouseHook from './components/MouseHook';
+
 
 class App extends Component {
 
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <UseEffectHook /> 
+        <MouseHook></MouseHook> 
                </div>
     );
 
