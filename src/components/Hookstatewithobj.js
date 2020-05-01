@@ -7,7 +7,7 @@ function Hookstatewithobj() {
 			<input
 				type="text"
 				value={name.firstName}
-				onChange={e => setName({...name,firstName:e.target.value})}
+				onChange={e => setName({...name,firstName:e.target.value})}      //spread operator ... name  is used which make just a duplicate 
 			/>
 			<input
 				type="text"
