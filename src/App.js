@@ -3,6 +3,8 @@ import React,{Component} from 'react';
 
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
+import HooksPrevState from './components/HooksPrevState';
+
 class App extends Component {
 
   
@@ -11,9 +13,9 @@ class App extends Component {
     return (
       <div className="App">
        
-         <ClassCounter></ClassCounter>
-         <HookCounter/>
-         
+         {/* <ClassCounter></ClassCounter>
+         <HookCounter/> */}
+         <HooksPrevState></HooksPrevState>
       </div>
     );
 
