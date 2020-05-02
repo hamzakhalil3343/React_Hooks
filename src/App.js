@@ -1,22 +1,43 @@
-import React,{Component} from 'react';
-import UseReducerCounter from './components/UseReducerCounter';
+import React,{useReducer} from 'react';
+import ComponentC from './components/ComponentC';
 
 
-export const UserContext=React.createContext();
+export const CountContext=React.createContext();
+const initialstate=0;
+const reducer =(state,action)=>{
+  switch(action){
+      case 'increment':
+          return state+1;
+      case 'decrement':
+          return state-1;
+      case 'reset':
+           return initialstate;
+      default:
+           return state;
+  }
 
-class App extends Component {
+}
 
-  
-  render(){
 
+
+
+
+
+function App(){
+  const [count,dispatch]=useReducer(reducer,initialstate);   
     return (
-      <div className="App">
-             <UseReducerCounter></UseReducerCounter> 
+      <CountContext.Provider value={{countstate:count,countdispatch:dispatch}}>
+
+               <div className="App">
+                 count - {count}
+             <ComponentC></ComponentC> 
         
                </div>
+      </CountContext.Provider>
+     
     );
 
-    }
+    
   
 }
 
