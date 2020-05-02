@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
+import UseReducerCounter from './components/UseReducerCounter';
 
-import ComponentC from './components/ComponentC';
 
 export const UserContext=React.createContext();
 
@@ -11,9 +11,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <UserContext.Provider value={"Hamza Khalil"}>
-             <ComponentC></ComponentC>
-        </UserContext.Provider>
+             <UseReducerCounter></UseReducerCounter> 
         
                </div>
     );
