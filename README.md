@@ -9,3 +9,7 @@ React Hooks allow you to write react features without having writing to a class
 *** useState Hook
 
 *** useeffect Hook allow you to perform side effects in functional components. A close replacement of componentdidmount,componentdidupdate and componentwillunmount. 
+
+###useContext Hook is used to pass data to component tree without having to pass as props to each  level 
+
+![](images/UseContext.png)

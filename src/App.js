@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 
-import DataFetching from './components/DataFetching';
+import ComponentC from './components/ComponentC';
 
-
+export const UserContext=React.createContext();
 
 class App extends Component {
 
@@ -11,8 +11,10 @@ class App extends Component {
 
     return (
       <div className="App">
-
-        <DataFetching></DataFetching>
+        <UserContext.Provider value={"Hamza Khalil"}>
+             <ComponentC></ComponentC>
+        </UserContext.Provider>
+        
                </div>
     );
 
