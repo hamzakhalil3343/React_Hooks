@@ -1,5 +1,6 @@
 import React from 'react';
-import DataFetchingUR from './components/DataFetchingUR';
+
+import ParentComponent from './components/ ParentComponent';
 
 
 
@@ -12,7 +13,7 @@ function App(){
       
 
                <div className="App">
-               <DataFetchingUR></DataFetchingUR>
+               <ParentComponent></ParentComponent>
                </div>
      
      

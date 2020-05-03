@@ -31,3 +31,5 @@ React Hooks allow you to write react features without having writing to a class
                             UseReducer(reducer,initialstate)
                             reducer(state,action)
 
+      
+  ![](images/useStateVsUSReducer.png)
