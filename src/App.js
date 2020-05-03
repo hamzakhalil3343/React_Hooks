@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ParentComponent from './components/ ParentComponent';
+import Counter from './components/Counter';
 
 
 
@@ -13,7 +13,7 @@ function App(){
       
 
                <div className="App">
-               <ParentComponent></ParentComponent>
+               <Counter></Counter>
                </div>
      
      
