@@ -1,7 +1,6 @@
 import React from 'react';
-
-import Counter from './components/Counter';
-import FocusInput from './components/FocusInput';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
 
 
 
@@ -14,7 +13,8 @@ function App(){
       
 
                <div className="App">
-               <FocusInput></FocusInput>
+               <ClassTimer></ClassTimer>
+               <HookTimer></HookTimer>
                </div>
      
      
