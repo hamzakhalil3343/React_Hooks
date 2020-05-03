@@ -1,6 +1,5 @@
 import React from 'react';
-import ClassTimer from './components/ClassTimer';
-import HookTimer from './components/HookTimer';
+import DocumentTitle from './components/DocumentTitle';
 
 
 
@@ -13,8 +12,7 @@ function App(){
       
 
                <div className="App">
-               <ClassTimer></ClassTimer>
-               <HookTimer></HookTimer>
+               <DocumentTitle></DocumentTitle>
                </div>
      
      
