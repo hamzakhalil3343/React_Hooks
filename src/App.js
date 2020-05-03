@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Counter from './components/Counter';
+import FocusInput from './components/FocusInput';
 
 
 
@@ -13,7 +14,7 @@ function App(){
       
 
                <div className="App">
-               <Counter></Counter>
+               <FocusInput></FocusInput>
                </div>
      
      

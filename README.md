@@ -35,7 +35,13 @@ React Hooks allow you to write react features without having writing to a class
   ![](images/useStateVsUSReducer.png)
 
 
+
+
 ### Usecallback Vs useMemo Hook
 
                                If u want to cash a function use useCallback Hook
-                            If u want to cash a result of an invoked function use useMemo Hook
+                      If u want to cash a result of an invoked function use useMemo Hook
+
+### useRef Hook 
+
+                      Used to something like globally btw useEffect and return
