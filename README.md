@@ -25,6 +25,9 @@ React Hooks allow you to write react features without having writing to a class
 ![](images/UseContext.png)
 
 ### UseReducer Hook 
-
-![](images/useReducer.png)
+            
+                            Used in state management in react
+                            UseReducer is related to reducer functions
+                            UseReducer(reducer,initialstate)
+                            reducer(state,action)
 
